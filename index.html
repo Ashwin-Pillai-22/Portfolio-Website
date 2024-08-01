@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Ashwin Pillai Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">Ashwin Pillai</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="crossicon"><a onclick=close_mobile_menu()><svg xmlns="http://www.w3.org/2000/svg"
+                                height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>I'm Ashwin Pillai</h1>
+            <span id="typed-text"></span>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="Resources/img2.jfif" alt="Ashwin Pillai">
+            <p>Hi! I'm Ashwin Pillai, a dedicated computer science student. I am currently pursuing my  degree in computer science and engineering. I'm on an exciting journey to explore the frontiers of technology and
+                innovation.<br><br>
+
+                From a young age, I've been captivated by the transformative power of technology. My journey began with
+                a fascination for programming languages, where I honed my skills in Python, Java, C, and more. These
+                languages help me solve complex problems and empower me to bring ideas to life.<br><br>
+
+                However, my thirst for knowledge doesn't end with programming. I'm passionate about AI and ML and their
+                potential to revolutionise industries and drive meaningful change. Guided by this passion, I'm actively
+                expanding my expertise in AI algorithms, neural networks, and data analysis techniques.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project" data-title="Project 1">
+                <h3 class="project-title">Water Dispenser with Object Detection</h3>
+                <img src="Resources/project1img.jpg" alt="Project 1" id="project-img">
+                <p>Introducing a water dispenser with object detection represents a significant advancement in both
+                    convenience and efficiency, merging cutting-edge technology with everyday utility. By integrating
+                    object detection capabilities into traditional water dispensers, this innovative solution
+                    revolutionizes the user experience, offering a seamless and hygienic way to access water.<br><br>
+                    Gone are the days of manual interaction with handles or buttons, which can harbor germs and lead to
+                    hygiene concerns. With object detection technology, users simply approach the dispenser, and sensors
+                    detect the presence of their container. This touch less operation not only enhances hygiene by
+                    minimizing physical contact but also streamlines
+                    the dispensing process, making it more intuitive and user-friendly.<br><br>
+                    Furthermore, water dispensers equipped with object detection are designed to be smart and efficient.
+                    It can accurately detect the cup in the field of vision and spills water into the cup.<br><br>
+                    For more info visit my LinkedIn.<a href="https://www.linkedin.com/in/ashwin-pillai-hello-world/"
+                        target="_blank" alt="Error"><img src="Resources/linkedin.png" alt="Error"
+                            class="project1_linkedinImg"></a>
+                </p>
+            </div>
+            <div class="project" data-title="Project 2">
+                <h3 class="project-title">Add Two Numbers using Mahcine Learning</h3>
+                <img src="Resources/project2img.png" alt="Project 2" id="project-img">
+                <p>This project marks the beginning of my journey into Machine Learning. It is designed to be simple and
+                    accessible. I have developed a model that adds two numbers using Machine Learning techniques, and I
+                    have also created a graphical user interface (GUI) to enhance user interaction and
+                    accessibility.<br><br>
+                    Please check out my repository to explore the project in more detail.
+                    <a href="https://github.com/Ashwin-Pillai-22/Add-Two-Numbers-using-Machine-Learning"
+                        target="_blank"><img src="Resources/github.png" alt="Error" class="project2_githubImg"></a>
+                </p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="mailto:ashwin.pillai.22@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div>
+            <a href="https://www.linkedin.com/in/ashwin-pillai-hello-world/" target="_blank"><img
+                    src="Resources/linkedin.png" alt="LinkedIn" id="contactImg"></a>
+            <a href="https://github.com/Ashwin-Pillai-22" target="_blank"><img src="Resources/github.png" alt="GitHub"
+                    id="contactImg"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ashwin Pillai. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
