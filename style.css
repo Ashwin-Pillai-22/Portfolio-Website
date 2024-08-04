@@ -163,6 +163,7 @@ header {
 
 .about-content p {
     font-size: 1.2rem;
+    text-align: justify;
 }
 
 /* Projects Section */
@@ -212,6 +213,11 @@ header {
     height: 20px;
     width: 20px;
     margin-bottom: -4px;
+}
+
+.projects-section p{
+    text-align: justify;
+    padding: 0 10px;
 }
 
 /* Contact Section */
