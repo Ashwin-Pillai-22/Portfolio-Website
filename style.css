@@ -307,4 +307,10 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr; /* Stack projects vertically on smaller screens */
+    }
+}
+
  
