@@ -163,7 +163,18 @@ header {
 
 .about-content p {
     font-size: 1.2rem;
+    color: black;
     text-align: justify;
+    background-color: #f0f0f0;
+    padding: 20px 20px;
+    border-radius: 6px;
+    border-left: 5px solid greenyellow;
+    box-shadow: 20px 20px #e8e6e6;
+    margin-right: 50px;
+}
+
+.about-content p::after{
+    
 }
 
 /* Projects Section */
